@@ -1,0 +1,74 @@
+.loading {
+    color: grey;
+    font-size: 3rem;
+}
+.movie{
+    margin: 0 auto;
+    width: 80%;
+    padding: 1rem; 
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    background-color: #ccc;
+    border: 0.3125rem solid #aaa;
+    position: relative;
+}
+img{
+    width: 40%;
+    align-self: flex-start;
+}
+.info{
+    width: 60%;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+h1{
+    width: 100%;
+    color: #333;
+}
+.info div{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.button{
+    justify-content: flex-end;
+    border-bottom: 0.125rem solid #333;
+}
+button{
+    align-self: flex-start;
+    border: none;
+    background-color: #eee;
+    padding: 0.0625rem 0.625rem;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    border: 0.0125rem solid #333;
+    border-bottom: 0;
+    border-radius: 0.625rem 0.625rem 0 0 ;
+    cursor:pointer;
+}
+.button button:last-child{
+        margin-right: 0.625rem;
+}
+.info button:hover, .on{
+    background-color: #333;
+    color: white;
+}
+.text{
+    padding: 0 0.625rem;
+}
+.back{
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    border-radius: 1rem;
+    padding: 0.125rem 0.625rem;
+    border: none;
+    background: rgba(0,0,0,0.2);
+}
+.back:hover {
+    color: white;
+}

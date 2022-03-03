@@ -1,0 +1,19 @@
+p{
+    width: 100%;
+    margin: 0.625rem 0;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+ul > p{
+    width: auto;
+}
+li{
+    padding:0.625rem;
+    margin: 0;
+}

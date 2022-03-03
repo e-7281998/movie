@@ -1,0 +1,17 @@
+body {
+    background-color:#000000;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.loading {
+ color: grey;
+ font-size: 3rem;
+}
+.movie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-content: space-around;
+}

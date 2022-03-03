@@ -1,0 +1,79 @@
+.movie {
+    background-color: rgba(255,255,255,0.75);
+    width: 15rem;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    border: 0.3125rem solid rgba(255,255,255,0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+}
+.movie:hover {
+    background-color: rgba(245, 136, 64,0.6);
+    border-radius: 1rem;
+    border: 0.3125rem solid #ccc;
+}
+.movie h2 {
+    width: 100%;
+    padding: 0.3125rem;
+    transition: all 0.3s ease-in-out;
+}
+.movie:hover h2{
+    border-radius: 1rem;
+    background-color: rgba(255,255,255,0.75);
+}
+.movie h2 a {
+    font-size: 1.25rem;
+    color: #B85252;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.poster {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.movie:hover .poster{
+    opacity: 0.1;
+    width: 100%;
+}
+.movie:hover .summary {
+    display: block;
+    color: rgba(234, 222, 222,0.9);
+}
+.summary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14.9414rem;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    color: transparent;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+}
+.genre {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    font-size: 0.75rem;
+}
+.genre li {
+    padding: 0.3125rem;
+    margin: 0.3125rem;
+    font-weight: bold;
+    color: grey;
+    transition: all 0.3s ease-in-out;
+}
+.movie:hover li{
+    color: rgba(234, 222, 222,0.5);
+}
